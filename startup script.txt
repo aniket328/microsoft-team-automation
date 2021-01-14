@@ -1,0 +1,33 @@
+sudo apt-get update
+sudo su
+sudo appt-get upgrade -y
+sudo apt install git-all
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+apt --fix-broken install
+
+git clone https://github.com/aniket328/microsoft-team-automation.git
+sudo apt-get -y install python3-pip
+pip3 install selenium
+
+wget https://download.nomachine.com/download/7.0/Linux/nomachine_7.0.211_4_amd64.deb
+sudo dpkg -i nomachine_7.0.211_4_amd64.deb
+
+
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install tasksel
+sudo apt-get install slim
+or
+sudo apt-get install lightdm
+tasksel
+sudo apt-get install ubuntu-desktop
+
+
+passwd
+ubuntu
+ubuntu
+nano /etc/ssh/sshd_config
+adduser aniket
+
+usermod -a -G sudo,adm <username>
